@@ -65,18 +65,15 @@ body {
   }
 }
 
-main {
+article {
   max-width: var(--content-max-width);
   margin: auto;
+  padding: 1rem;
 }
 
 #logo-jamstack {
   max-width: 300px;
   margin: auto;
-}
-
-article {
-  margin: 1rem;
 }
 
 h1, h2, h3 {
