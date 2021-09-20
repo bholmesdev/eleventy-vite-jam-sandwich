@@ -1,0 +1,162 @@
+@font-face {
+  font-family: Atkinson;
+  src: url('/assets/Atkinson/Atkinson-Hyperlegible-Regular.woff2'),
+    url('/assets/Atkinson/Atkinson-Hyperlegible-Regular.woff'),
+    url('/assets/Atkinson/Atkinson-Hyperlegible-Regular.ttf');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Atkinson;
+  src: url('./Atkinson/Atkinson-Hyperlegible-Italic.woff2'),
+    url('./Atkinson/Atkinson-Hyperlegible-Italic.woff'),
+    url('./Atkinson/Atkinson-Hyperlegible-Italic.ttf');
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Atkinson;
+  src: url('./Atkinson/Atkinson-Hyperlegible-Bold.woff2'),
+    url('./Atkinson/Atkinson-Hyperlegible-Bold.woff'),
+    url('./Atkinson/Atkinson-Hyperlegible-Bold.ttf');
+  font-weight: bold;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Atkinson;
+  src: url('./Atkinson/Atkinson-Hyperlegible-BoldItalic.woff2'),
+    url('./Atkinson/Atkinson-Hyperlegible-BoldItalic.woff'),
+    url('./Atkinson/Atkinson-Hyperlegible-BoldItalic.ttf');
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+:root {
+  --content-max-width: 800px;
+  --pink: #EF037F;
+  --primary: var(--pink);
+}
+
+html {
+  font-family: 'Atkinson', Arial, Helvetica, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  position: relative;
+}
+
+body {
+  margin: 0;
+  color: white;
+  
+  &::before {
+    content: '';
+    z-index: -1;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(to bottom, #141414, #34294f);
+  }
+}
+
+main {
+  max-width: var(--content-max-width);
+  margin: auto;
+}
+
+#logo-jamstack {
+  max-width: 300px;
+  margin: auto;
+}
+
+article {
+  margin: 1rem;
+}
+
+h1, h2, h3 {
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 2.4rem;
+  text-shadow: 0 0 20px #EF037F;
+}
+
+h3 {
+  font-size: 1.3rem;
+  text-shadow: 0 0 20px #EF037F;
+}
+
+footer {
+  font-style: italic;
+  text-align: center;
+  margin-top: 5rem;
+}
+
+.talk-carousel {
+  background:#34294f;
+  border-radius: 6px;
+  overflow: hidden;
+
+  .talk-carousel__tab {
+    max-width: 40px;
+    line-height: 0;
+    padding: 0.3rem;
+
+    &::before {
+      content: '';
+      background: var(--primary);
+      position: absolute;
+      inset: 0;
+      transform: scale(0);
+      transform-origin: center;
+      transition: transform 0.2s;
+    }
+    
+    &[data-selected]::before {
+      transform: scale(1);
+    }
+    img {
+      width: 100%;
+      border-radius: 2px;
+    }
+  }
+  .talk-carousel__tabpanel {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 1.3rem;
+    padding: 1.3rem;
+
+    img {
+      width: 100%;
+      border-radius: 6px;
+    }
+  }
+  dl {
+    dt {
+      font-weight: bold;
+    }
+    dd {
+      margin: 0;
+      margin-top: 0.1rem;
+      margin-bottom: 0.8rem;
+    }
+  }
+}
+
+a, a:visited {
+  color: inherit;
+}
+
+li {
+  margin-bottom: 0.4rem;
+  strong::after {
+    content: ' ';
+  }
+}

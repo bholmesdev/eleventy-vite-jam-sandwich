@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jam with Vite!</title>
+  <link rel="stylesheet" href="/assets/styles.scss">
+</head>
+
+<body>
+  <main id="root"></main>
+  <script type="module">
+    import Home from './_includes/components/Home.jsx'
+    import React from 'react'
+    import ReactDOM from 'react-dom'
+
+    const componentRoot = document.getElementById('root')
+    ReactDOM.render(React.createElement(Home), componentRoot)
+  </script>
+</body>
+
+</html>
