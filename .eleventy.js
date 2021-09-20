@@ -3,6 +3,6 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy('_includes/components')
 
   eleventyConfig.addShortcode('react', function() {
-    return 'it worked!'
+    return '<p>it worked!</p>'
   })
 }
