@@ -4,7 +4,7 @@ import Heading from './Heading'
 import ImageCarousel from './ImageCarousel'
 import LearnMore from './LearnMore'
 
-const About = () => (
+const Home = () => (
   <article>
     <Logo />
     <Heading />
@@ -14,4 +14,4 @@ const About = () => (
   </article>
 )
 
-export default About
+export default Home
