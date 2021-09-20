@@ -1,7 +1,6 @@
 import React from 'react'
 import talks from '../../assets/talks.json'
 import { Tabs, TabList, Tab, TabPanels, TabPanel } from '@reach/tabs'
-import '@reach/tabs/styles.css'
 
 const ImageCarousel = () => (
   <div>
