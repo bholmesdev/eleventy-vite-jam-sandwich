@@ -11,15 +11,13 @@
 </head>
 
 <body>
-  <main id="root"></main>
-  <script type="module">
-    import Home from './_includes/components/Home.jsx'
-    import React from 'react'
-    import ReactDOM from 'react-dom'
-
-    const componentRoot = document.getElementById('root')
-    ReactDOM.render(React.createElement(Home), componentRoot)
-  </script>
+  <article>
+    {% react 'components/Logo.jsx' %}
+    {% react 'components/Heading.jsx' %}
+    {% react 'components/ImageCarousel.jsx' true %}
+    {% react 'components/LearnMore.jsx' %}
+    <footer>Made with ❤️ by Ben Holmes</footer>
+  </article>
 </body>
 
 </html>
