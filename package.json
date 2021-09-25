@@ -24,7 +24,6 @@
     "prettier": "^2.4.1",
     "require-from-string": "^2.0.2",
     "sass": "^1.41.1",
-    "slinkity": "^0.1.7",
     "vite": "^2.5.10"
   }
 }
