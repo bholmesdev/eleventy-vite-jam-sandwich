@@ -1,4 +1,4 @@
-<h1 align="center">The Eleventy, Vite and JAM sandwich 🥪</h1>
+<h1 align="center">Eleventy, Vite and JAM sandwich | an at-home Slinkity recipe 🥪</h1>
 <p>
   <a href="https://github.com/Holben888/eleventy-vite-jam-sandwich/blob/main/LICENSE.md" target="_blank">
     <img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-yellow.svg" />
