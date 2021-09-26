@@ -1,8 +1,5 @@
 <h1 align="center">The Eleventy, Vite and JAM sandwich 🥪</h1>
-<p style="display: flex; align-items: center; gap: 8px">
-  <a href="https://www.netlify.com/img/deploy/button.svg" target="_blank">
-    <img alt="Deploy to Netlify" src="https://www.netlify.com/img/deploy/button.svg">
-  </a>
+<p>
   <a href="https://github.com/Holben888/eleventy-vite-jam-sandwich/blob/main/LICENSE.md" target="_blank">
     <img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-yellow.svg" />
   </a>
