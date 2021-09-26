@@ -6,7 +6,7 @@
         "title": "Co-founder & CEO--Netlify"
       }
     ],
-    "picture": "https://jamstackconf.com/static/speakers/virtual/bsWQbAQ1KI-600.avif",
+    "picture": "/assets/images/Jamstack:-how-it-started-how-it's-going.webp",
     "talk": "Jamstack: how it started, how it's going"
   },
   {
@@ -16,7 +16,7 @@
         "title": "Tech Lead, Staff Software Engineer—Twilio"
       }
     ],
-    "picture": "https://jamstackconf.com/static/speakers/virtual/i2OQXCTJq7-400.avif",
+    "picture": "/assets/images/Twilio-Console:-A-Large-Scale-Migration-to-Jamstack.webp",
     "talk": "Twilio Console: A Large Scale Migration to Jamstack"
   },
   {
@@ -26,7 +26,7 @@
         "title": "Staff Developer Experience Engineer—Netlify"
       }
     ],
-    "picture": "https://jamstackconf.com/static/speakers/virtual/q3kunVzwm3-400.avif",
+    "picture": "/assets/images/Exploring-Vue-3's-Ecosystem.webp",
     "talk": "Exploring Vue 3's Ecosystem"
   },
   {
@@ -40,7 +40,7 @@
         "title": "Senior Developer Relations Engineer—New Relic"
       }
     ],
-    "picture": "https://jamstackconf.com/static/speakers/virtual/oo5Chj0vAZ-600.avif",
+    "picture": "/assets/images/Optimizing-Gatsby-Build-Performance-with-Observability.webp",
     "talk": "Optimizing Gatsby Build Performance with Observability"
   },
   {
@@ -50,7 +50,7 @@
         "title": "Developer Advocate—Applitools"
       }
     ],
-    "picture": "https://jamstackconf.com/static/speakers/virtual/XMH8K5MCjV-600.avif",
+    "picture": "/assets/images/WordPress-at-the-Edge-with-Next.js-and-the-Jamstack.webp",
     "talk": "WordPress at the Edge with Next.js & the Jamstack"
   },
   {
@@ -60,7 +60,7 @@
         "title": "Senior Data Analyst—Netlify"
       }
     ],
-    "picture": "https://jamstackconf.com/static/speakers/virtual/eyevdU0UU8-600.avif",
+    "picture": "/assets/images/The-2021-Jamstack-Community-Survey-Results.webp",
     "talk": "The 2021 Jamstack Community Survey Results"
   },
   {
@@ -70,7 +70,7 @@
         "title": "Principal Systems Architect—Wikimedia Foundation"
       }
     ],
-    "picture": "https://jamstackconf.com/static/speakers/virtual/iH6vXZKwzu-600.avif",
+    "picture": "/assets/images/How-migrating-my-tool-to-Jamstack-made-me-a-better-open-source-denizen.webp",
     "talk": "How migrating my tool to Jamstack made me a better open source denizen"
   },
   {
@@ -80,7 +80,7 @@
         "title": "Developer Advocate—Magic"
       }
     ],
-    "picture": "https://jamstackconf.com/static/speakers/virtual/E1VOKGI34P-600.avif",
+    "picture": "/assets/images/Security-is-the-s-in-Jamstack.webp",
     "talk": "Security is the “s” in Jamstack"
   },
   {
@@ -90,7 +90,7 @@
         "title": "Fullstack Web Sorcerer—Peloton"
       }
     ],
-    "picture": "https://jamstackconf.com/static/speakers/virtual/m-iPHXkGQw-600.avif",
-    "talk": "The 11ty, web component and JAM sandwich | a recipe for making the static interactive"
+    "picture": "/assets/images/The-11ty-Vite-and-JAM-sandwich-or-a-recipe-for-making-the-static-interactive.webp",
+    "talk": "The 11ty, Vite and JAM sandwich | a recipe for making the static interactive"
   }
 ]
