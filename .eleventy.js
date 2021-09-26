@@ -4,7 +4,7 @@ const { renderToString } = require('react-dom/server')
 const React = require('react')
 
 module.exports = function (eleventyConfig) {
-  eleventyConfig.addPassthroughCopy('assets')
+  eleventyConfig.addPassthroughCopy('assets/**')
   eleventyConfig.addPassthroughCopy('_includes/components')
 
   let idCounter = 0
