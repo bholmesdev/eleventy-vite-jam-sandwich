@@ -27,7 +27,7 @@ This will spin up two dev servers simultaneously:
 
 By strapping these 2 rockets together, we can bring component frameworks like React in any templating language. We could even change that `index.html` to an `index.md` or `index.liquid` if we wanted to!
 
-## Want to use this in *your* 11ty project?
+## Want to use this in *your* 11ty project? Consider trying Slinkity!
 
 I recommend [grabbing the Slinkity plugin](https://slinkity.dev/) to get up-and-running fast. This tool offers a few key benefits:
 - **You'll get the amazing `{% react ... %}` shortcode** this project showcases with zero `eleventyConfig` required
