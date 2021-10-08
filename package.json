@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "concurrently 'eleventy --watch --incremental' 'vite _site'"
+    "start": "slinkity --serve --incremental",
+    "build": "slinkity"
   },
   "keywords": [],
   "author": "",
@@ -15,15 +16,14 @@
     "react-dom": "^17.0.2"
   },
   "devDependencies": {
-    "@11ty/eleventy": "^1.0.0-canary.40",
-    "concurrently": "^6.2.1",
+    "@11ty/eleventy": "^1.0.0-beta.2",
     "eslint": "^7.32.0",
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-prettier": "^4.0.0",
     "eslint-plugin-react": "^7.25.3",
     "prettier": "^2.4.1",
-    "require-from-string": "^2.0.2",
     "sass": "^1.41.1",
+    "slinkity": "github:slinkity/slinkity#feat/51/vite-ssr-middleware",
     "vite": "^2.5.10"
   }
 }
