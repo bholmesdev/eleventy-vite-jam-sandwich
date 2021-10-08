@@ -1,0 +1,13 @@
+---
+title: Jamslinkity Conf
+layout: layout
+---
+
+<article>
+  {% assign talks = collections.talks | formatTalks %}
+  {% react 'components/Logo.jsx' 'render' 'static' %}
+  {% react 'components/Heading.jsx' 'render' 'static' %}
+  {% react 'components/ImageCarousel.jsx' 'render' 'lazy' 'talks' talks %}
+  {% react 'components/LearnMore.jsx' 'render' 'static' %}
+  <footer>Made with ❤️ by Ben Holmes</footer>
+</article>

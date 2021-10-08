@@ -8,27 +8,27 @@
 
 @font-face {
   font-family: Atkinson;
-  src: url('./Atkinson/Atkinson-Hyperlegible-Italic.woff2'),
-    url('./Atkinson/Atkinson-Hyperlegible-Italic.woff'),
-    url('./Atkinson/Atkinson-Hyperlegible-Italic.ttf');
+  src: url('/assets/Atkinson/Atkinson-Hyperlegible-Italic.woff2'),
+    url('/assets/Atkinson/Atkinson-Hyperlegible-Italic.woff'),
+    url('/assets/Atkinson/Atkinson-Hyperlegible-Italic.ttf');
   font-style: italic;
   font-display: swap;
 }
 
 @font-face {
   font-family: Atkinson;
-  src: url('./Atkinson/Atkinson-Hyperlegible-Bold.woff2'),
-    url('./Atkinson/Atkinson-Hyperlegible-Bold.woff'),
-    url('./Atkinson/Atkinson-Hyperlegible-Bold.ttf');
+  src: url('/assets/Atkinson/Atkinson-Hyperlegible-Bold.woff2'),
+    url('/assets/Atkinson/Atkinson-Hyperlegible-Bold.woff'),
+    url('/assets/Atkinson/Atkinson-Hyperlegible-Bold.ttf');
   font-weight: bold;
   font-display: swap;
 }
 
 @font-face {
   font-family: Atkinson;
-  src: url('./Atkinson/Atkinson-Hyperlegible-BoldItalic.woff2'),
-    url('./Atkinson/Atkinson-Hyperlegible-BoldItalic.woff'),
-    url('./Atkinson/Atkinson-Hyperlegible-BoldItalic.ttf');
+  src: url('/assets/Atkinson/Atkinson-Hyperlegible-BoldItalic.woff2'),
+    url('/assets/Atkinson/Atkinson-Hyperlegible-BoldItalic.woff'),
+    url('/assets/Atkinson/Atkinson-Hyperlegible-BoldItalic.ttf');
   font-weight: bold;
   font-style: italic;
   font-display: swap;
@@ -50,8 +50,8 @@ html {
 }
 
 body {
-  margin: 0;
   color: white;
+  padding: 1rem;
   
   &::before {
     content: '';

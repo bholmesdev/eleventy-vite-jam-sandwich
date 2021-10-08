@@ -1,10 +1,10 @@
 import React from 'react'
-import talks from '../../assets/talks.json'
 import { Tabs, TabList, Tab, TabPanels, TabPanel } from '@reach/tabs'
+import '@reach/tabs/styles.css'
 
-const ImageCarousel = () => (
+const ImageCarousel = ({ talks }) => (
   <div>
-    <h2>Other legendary talks</h2>
+    <h2>Other legendary talks!</h2>
     <Tabs className="talk-carousel">
       <TabList className="talk-carousel__tablist">
         {talks.map((talk) => (
@@ -28,6 +28,7 @@ const ImageCarousel = () => (
                     </>
                   ))}
                 </dl>
+                <a href={talk.url}>Learn more</a>
               </div>
             </div>
           </TabPanel>
