@@ -4,9 +4,8 @@ layout: layout
 ---
 
 <article>
-  {% set talks = collections.talks | formatTalks %}
   {% react 'components/Heading', 'render', 'static' %}
-  {% react 'components/ImageCarousel', 'render', 'eager', 'talks', talks %}
+  {% react 'components/ImageCarousel', 'talks', collections.talks | formatTalks %}
   {% react 'components/LearnMore', 'render', 'static' %}
   <footer>Made with ❤️ by Ben Holmes</footer>
 </article>
