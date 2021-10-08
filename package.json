@@ -21,6 +21,7 @@
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-prettier": "^4.0.0",
     "eslint-plugin-react": "^7.25.3",
+    "node-fetch": "^2.6.5",
     "prettier": "^2.4.1",
     "sass": "^1.41.1",
     "slinkity": "github:slinkity/slinkity#feat/51/vite-ssr-middleware",
