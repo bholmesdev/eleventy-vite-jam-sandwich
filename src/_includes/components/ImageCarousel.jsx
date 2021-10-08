@@ -8,24 +8,24 @@ const ImageCarousel = ({ talks }) => (
     <Tabs className="talk-carousel">
       <TabList className="talk-carousel__tablist">
         {talks.map((talk) => (
-          <Tab key={talk.talk} className="talk-carousel__tab">
-            <img src={talk.picture} alt={talk.talk}></img>
+          <Tab key={talk.title} className="talk-carousel__tab">
+            <img src={talk.picture} alt={talk.title}></img>
           </Tab>
         ))}
       </TabList>
       <TabPanels>
         {talks.map((talk) => (
-          <TabPanel key={talk.talk}>
+          <TabPanel key={talk.title}>
             <div className="talk-carousel__tabpanel">
-              <img src={talk.picture} alt={talk.talk}></img>
+              <img src={talk.picture} alt={talk.title}></img>
               <div>
-                <h3>{talk.talk}</h3>
+                <h3>{talk.title}</h3>
                 <dl>
                   {talk.speakers.map((speaker) => (
-                    <>
+                    <div key={speaker.name}>
                       <dt>{speaker.name}</dt>
                       <dd>{speaker.title}</dd>
-                    </>
+                    </div>
                   ))}
                 </dl>
                 <a href={talk.url}>Learn more</a>

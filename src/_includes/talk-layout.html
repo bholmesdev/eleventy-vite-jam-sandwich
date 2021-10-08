@@ -1,0 +1,8 @@
+---
+layout: layout
+---
+
+{{content | safe}}
+
+{% set talks = collections.talks | formatTalks %}
+{% react 'components/ImageCarousel.jsx', 'render', 'lazy', 'talks', talks %}

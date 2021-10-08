@@ -8,7 +8,12 @@
   <title>{{title}}</title>
 </head>
 <body>
-  <h1>{{title}}</h1>
-  {{content}}
+  <heading>
+    <a href="/">
+      {% react 'components/Logo', 'render', 'static' %}
+    </a>
+    <h1>{{title}}</h1>
+  </heading>
+  {{content | safe}}
 </body>
 </html>
