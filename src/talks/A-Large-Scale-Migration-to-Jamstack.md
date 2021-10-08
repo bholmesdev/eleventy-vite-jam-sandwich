@@ -2,7 +2,7 @@
 speakers:
   - name: Harrison Harnisch
     title: "Tech Lead, Staff Software Engineer—Twilio"
-picture: "/assets/images/Twilio-Console:-A-Large-Scale-Migration-to-Jamstack.webp"
+    ghUsername: hharnisc
 title: "Twilio Console: A Large Scale Migration to Jamstack"
 ---
 
